@@ -1,0 +1,12 @@
+PODS:
+  - QiniuUpload (2.0.2)
+
+DEPENDENCIES:
+  - QiniuUpload
+
+SPEC CHECKSUMS:
+  QiniuUpload: 577ffa610f08c127f95c5e85b54f706bd670cff8
+
+PODFILE CHECKSUM: e5ccef326d5075d666d94fe8673798ab0e5de721
+
+COCOAPODS: 1.1.1

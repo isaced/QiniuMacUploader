@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BE34A0A1DE69C4400C43AE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE34A091DE69C4400C43AE6 /* AppDelegate.swift */; };
+		0BE34A0C1DE69C4400C43AE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE34A0B1DE69C4400C43AE6 /* ViewController.swift */; };
+		0BE34A0E1DE69C4400C43AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE34A0D1DE69C4400C43AE6 /* Assets.xcassets */; };
+		0BE34A111DE69C4400C43AE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE34A0F1DE69C4400C43AE6 /* Main.storyboard */; };
+		0BE34A191DE6B85900C43AE6 /* AppMainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE34A181DE6B85900C43AE6 /* AppMainWindow.swift */; };
+		0BE34A1B1DE6C0E900C43AE6 /* DragDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE34A1A1DE6C0E900C43AE6 /* DragDropView.swift */; };
+		C8401E9065F3C723E4DE1C7C /* Pods_QiniuMacUploader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4025A04FAEFEF7FB1EF46F25 /* Pods_QiniuMacUploader.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BE34A061DE69C4400C43AE6 /* QiniuMacUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiniuMacUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE34A091DE69C4400C43AE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BE34A0B1DE69C4400C43AE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BE34A0D1DE69C4400C43AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BE34A101DE69C4400C43AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BE34A121DE69C4400C43AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BE34A181DE6B85900C43AE6 /* AppMainWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppMainWindow.swift; sourceTree = "<group>"; };
+		0BE34A1A1DE6C0E900C43AE6 /* DragDropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDropView.swift; sourceTree = "<group>"; };
+		4025A04FAEFEF7FB1EF46F25 /* Pods_QiniuMacUploader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiniuMacUploader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		755F5F319A8C049DC537A887 /* Pods-QiniuMacUploader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiniuMacUploader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiniuMacUploader/Pods-QiniuMacUploader.debug.xcconfig"; sourceTree = "<group>"; };
+		8278CFB4E61768457176A17A /* Pods-QiniuMacUploader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiniuMacUploader.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiniuMacUploader/Pods-QiniuMacUploader.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BE34A031DE69C4400C43AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8401E9065F3C723E4DE1C7C /* Pods_QiniuMacUploader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BE349FD1DE69C4400C43AE6 = {
+			isa = PBXGroup;
+			children = (
+				0BE34A081DE69C4400C43AE6 /* QiniuMacUploader */,
+				0BE34A071DE69C4400C43AE6 /* Products */,
+				EAFB307D65B0D2ED53B833DA /* Pods */,
+				C26087D6DDBF93D4DD59FABF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0BE34A071DE69C4400C43AE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BE34A061DE69C4400C43AE6 /* QiniuMacUploader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BE34A081DE69C4400C43AE6 /* QiniuMacUploader */ = {
+			isa = PBXGroup;
+			children = (
+				0BE34A091DE69C4400C43AE6 /* AppDelegate.swift */,
+				0BE34A181DE6B85900C43AE6 /* AppMainWindow.swift */,
+				0BE34A0B1DE69C4400C43AE6 /* ViewController.swift */,
+				0BE34A1A1DE6C0E900C43AE6 /* DragDropView.swift */,
+				0BE34A0D1DE69C4400C43AE6 /* Assets.xcassets */,
+				0BE34A0F1DE69C4400C43AE6 /* Main.storyboard */,
+				0BE34A121DE69C4400C43AE6 /* Info.plist */,
+			);
+			path = QiniuMacUploader;
+			sourceTree = "<group>";
+		};
+		C26087D6DDBF93D4DD59FABF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4025A04FAEFEF7FB1EF46F25 /* Pods_QiniuMacUploader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAFB307D65B0D2ED53B833DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				755F5F319A8C049DC537A887 /* Pods-QiniuMacUploader.debug.xcconfig */,
+				8278CFB4E61768457176A17A /* Pods-QiniuMacUploader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BE34A051DE69C4400C43AE6 /* QiniuMacUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BE34A151DE69C4400C43AE6 /* Build configuration list for PBXNativeTarget "QiniuMacUploader" */;
+			buildPhases = (
+				470E972A2AC50530B537382E /* [CP] Check Pods Manifest.lock */,
+				0BE34A021DE69C4400C43AE6 /* Sources */,
+				0BE34A031DE69C4400C43AE6 /* Frameworks */,
+				0BE34A041DE69C4400C43AE6 /* Resources */,
+				010FEB756ECC7F8884215655 /* [CP] Embed Pods Frameworks */,
+				E110AE73782A2DF2C955FD9B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiniuMacUploader;
+			productName = QiniuMacUploader;
+			productReference = 0BE34A061DE69C4400C43AE6 /* QiniuMacUploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BE349FE1DE69C4400C43AE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				TargetAttributes = {
+					0BE34A051DE69C4400C43AE6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0BE34A011DE69C4400C43AE6 /* Build configuration list for PBXProject "QiniuMacUploader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BE349FD1DE69C4400C43AE6;
+			productRefGroup = 0BE34A071DE69C4400C43AE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BE34A051DE69C4400C43AE6 /* QiniuMacUploader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BE34A041DE69C4400C43AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE34A0E1DE69C4400C43AE6 /* Assets.xcassets in Resources */,
+				0BE34A111DE69C4400C43AE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		010FEB756ECC7F8884215655 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiniuMacUploader/Pods-QiniuMacUploader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		470E972A2AC50530B537382E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E110AE73782A2DF2C955FD9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiniuMacUploader/Pods-QiniuMacUploader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BE34A021DE69C4400C43AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE34A0C1DE69C4400C43AE6 /* ViewController.swift in Sources */,
+				0BE34A191DE6B85900C43AE6 /* AppMainWindow.swift in Sources */,
+				0BE34A0A1DE69C4400C43AE6 /* AppDelegate.swift in Sources */,
+				0BE34A1B1DE6C0E900C43AE6 /* DragDropView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BE34A0F1DE69C4400C43AE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BE34A101DE69C4400C43AE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BE34A131DE69C4400C43AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BE34A141DE69C4400C43AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		0BE34A161DE69C4400C43AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755F5F319A8C049DC537A887 /* Pods-QiniuMacUploader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QiniuMacUploader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaced.QiniuMacUploader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0BE34A171DE69C4400C43AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8278CFB4E61768457176A17A /* Pods-QiniuMacUploader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QiniuMacUploader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaced.QiniuMacUploader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BE34A011DE69C4400C43AE6 /* Build configuration list for PBXProject "QiniuMacUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE34A131DE69C4400C43AE6 /* Debug */,
+				0BE34A141DE69C4400C43AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BE34A151DE69C4400C43AE6 /* Build configuration list for PBXNativeTarget "QiniuMacUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE34A161DE69C4400C43AE6 /* Debug */,
+				0BE34A171DE69C4400C43AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BE349FE1DE69C4400C43AE6 /* Project object */;
+}
