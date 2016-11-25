@@ -60,7 +60,10 @@ class ViewController: NSViewController {
     }
     
     @IBAction func _tapCopyButton(_ sender: NSButton) {
-        
+        if self.urlTextField.stringValue.characters.count > 0 {
+            NSPasteboard.general().declareTypes([NSStringPboardType], owner: nil)
+            NSPasteboard.general().setString(self.urlTextField.stringValue, forType: NSStringPboardType)
+        }
     }
 }
 
