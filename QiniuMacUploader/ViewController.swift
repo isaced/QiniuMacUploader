@@ -40,7 +40,7 @@ class ViewController: NSViewController {
                         uploader.uploadOneFileSucceeded = { index, key, info in
                             print("upload succeeded : \(index) - \(key)")
                             
-                            let url = "\(self.rootDomain)\(key)"
+                            let url = "\(self.rootDomain)/\(key)"
                             self.urlTextField.stringValue = url
                         }
                         uploader.uploadOneFileFailed = { index, error in
