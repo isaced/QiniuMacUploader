@@ -15,10 +15,10 @@ class ViewController: NSViewController {
     
     @IBOutlet weak var urlTextField: NSTextField!
     
-    let scope = ""
-    let accessKey = ""
-    let secretKey = ""
-    let rootDomain = ""
+    let scope = ""          // Bucket
+    let accessKey = ""      // AK
+    let secretKey = ""      // SK
+    let rootDomain = ""     // Domain, for join final link and show
     
     override func viewDidLoad() {
         super.viewDidLoad()
